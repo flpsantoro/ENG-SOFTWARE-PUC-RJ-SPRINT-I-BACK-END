@@ -150,12 +150,13 @@ def cadastrar_dados_medidos():
         return jsonify({'mensagem': 'Erro ao cadastrar dados medidos.'}), 400
 
 
-@app.delete('/dados/<int:id>', methods=['DELETE'], tags=[dados_tag])
-def deletar_dados_medidos(id):
+@app.delete('/dados/', methods=['DELETE'], tags=[dados_tag])
+def deletar_dados_medidos():
     """
             Essa rota apaga os dados medidos pela balança buscando pelo id
+    """
 
-        """
+    id = request.args.get('id')
     session = Session()
     dados_medidos = session.query(DadosMedidos).get(id)
     if not dados_medidos:
@@ -168,4 +169,4 @@ def deletar_dados_medidos(id):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
