@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9de0d3f-502d-4782-b960-68cd238b4b52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/dados_cadastro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/dados_medidos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/route/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serializer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serializer/dadis_medidos_serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serializer/dados_cadastro_serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../site/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../site/docs/docs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../site/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ENTREGAS/ENG-SOFTWARE-PUC-RJ-SPRINT-I-BACK-END" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ENTREGAS/ENG-SOFTWARE-PUC-RJ-SPRINT-I-DATABASE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/POS_GRADUACAO/POS-GRADUACAO-PUC-RJ/ENTREGAS/ENG-SOFTWARE-PUC-RJ-SPRINT-I-BACK-END/code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +58,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\POS_GRADUACAO\POS-GRADUACAO-PUC-RJ\ENTREGAS\ENG-SOFTWARE-PUC-RJ-SPRINT-I-BACK-END\code" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\POS_GRADUACAO\POS-GRADUACAO-PUC-RJ\MVP\fullstack_basico\code\api\model" />
     </key>
@@ -100,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682871913447</updated>
-      <workItem from="1682871933256" duration="55144000" />
+      <workItem from="1682871933256" duration="57416000" />
     </task>
     <servers />
   </component>
@@ -108,6 +98,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$api.coverage" NAME="api Coverage Results" MODIFIED="1683075925306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api$api.coverage" NAME="api Coverage Results" MODIFIED="1683081075941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
