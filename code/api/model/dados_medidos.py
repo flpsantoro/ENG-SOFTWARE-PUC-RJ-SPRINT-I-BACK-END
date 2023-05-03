@@ -9,7 +9,7 @@ class DadosMedidos(Base):
     __tablename__ = 'tb_dados_medidos'
 
     id = Column(Integer, primary_key=True)
-    data = Column("data_medicao", DateTime, nullable=False, default=datetime.now())
+    data = Column("data_medicao", DateTime, nullable=False)
     gordura = Column("porcen_gordura", Float)
     gordura_visceral = Column("gordura_visceral", Integer)
     idade = Column("idade", Integer)
@@ -21,7 +21,7 @@ class DadosMedidos(Base):
     cadastro_id = Column("dados_cadastro_id", Integer, ForeignKey('tb_dados_cadastro.id'), nullable=False)
 
     def __init__(self, peso: float, gordura: float, gordura_visceral: int, idade: int, idade_corporal: int,
-                 imc: float, met_basal: int, musculo: float, cadastro_id: int) -> None:
+                 imc: float, met_basal: int, musculo: float, cadastro_id: int, data: datetime) -> None:
         self.peso = peso
         self.gordura = gordura
         self.gordura_visceral = gordura_visceral
@@ -31,3 +31,4 @@ class DadosMedidos(Base):
         self.met_basal = met_basal
         self.musculo = musculo
         self.cadastro_id = cadastro_id
+        self.data = datetime.now()
