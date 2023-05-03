@@ -32,7 +32,7 @@ dados_tag = Tag(name="Dados Medidos", description="Adição, Visualização e Re
 def home():
     """Redireciona para /openapi, tela que permite a escolha do estilo de documentação.
     """
-    return redirect('/openapi')
+    return redirect('/api/openapi')
 
 
 class DadosCadastroSchema(ma.SQLAlchemyAutoSchema):
