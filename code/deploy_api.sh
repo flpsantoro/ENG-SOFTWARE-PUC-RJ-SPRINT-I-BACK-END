@@ -1,6 +1,5 @@
 #! /bin/sh
 
-git pull origin
 
 rm -R /srv/api_sprint_i/
 mkdir /srv/api_sprint_i/
