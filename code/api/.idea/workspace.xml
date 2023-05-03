@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9de0d3f-502d-4782-b960-68cd238b4b52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../ENTREGAS/ENG-SOFTWARE-PUC-RJ-SPRINT-I-BACK-END" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../ENTREGAS/ENG-SOFTWARE-PUC-RJ-SPRINT-I-DATABASE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.." afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ENG-SOFTWARE-PUC-RJ-SPRINT-I-DATABASE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/POS_GRADUACAO/POS-GRADUACAO-PUC-RJ/ENTREGAS/ENG-SOFTWARE-PUC-RJ-SPRINT-I-BACK-END/code",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/POS_GRADUACAO/POS-GRADUACAO-PUC-RJ/ENTREGAS/ENG-SOFTWARE-PUC-RJ-SPRINT-I-BACK-END/code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\POS_GRADUACAO\POS-GRADUACAO-PUC-RJ\ENTREGAS\ENG-SOFTWARE-PUC-RJ-SPRINT-I-BACK-END\code" />

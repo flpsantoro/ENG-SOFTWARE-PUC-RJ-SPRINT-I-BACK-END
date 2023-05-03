@@ -21,7 +21,7 @@ class DadosMedidos(Base):
     cadastro_id = Column("dados_cadastro_id", Integer, ForeignKey('tb_dados_cadastro.id'), nullable=False)
 
     def __init__(self, peso: float, gordura: float, gordura_visceral: int, idade: int, idade_corporal: int,
-                 imc: float, met_basal: int, musculo: float, cadastro_id: int, data: datetime) -> None:
+                 imc: float, met_basal: int, musculo: float, cadastro_id: int) -> None:
         self.peso = peso
         self.gordura = gordura
         self.gordura_visceral = gordura_visceral
@@ -31,4 +31,3 @@ class DadosMedidos(Base):
         self.met_basal = met_basal
         self.musculo = musculo
         self.cadastro_id = cadastro_id
-        self.data = datetime.now()
