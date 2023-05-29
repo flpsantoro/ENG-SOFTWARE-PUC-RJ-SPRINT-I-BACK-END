@@ -9,7 +9,7 @@ class DadosMedidos(Base):
     __tablename__ = 'tb_dados_medidos'
 
     id = Column(Integer, primary_key=True)
-    data = Column("data_medicao", DateTime, nullable=False, default=datetime.now())
+    data = Column("data_medicao", DateTime, nullable=False)
     gordura = Column("porcen_gordura", Float)
     gordura_visceral = Column("gordura_visceral", Integer)
     idade = Column("idade", Integer)
