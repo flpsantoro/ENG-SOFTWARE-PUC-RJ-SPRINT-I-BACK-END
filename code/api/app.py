@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime
 
 from flask import jsonify, request, redirect
 from flask_cors import CORS
@@ -137,6 +137,7 @@ def cadastrar_dados_medidos():
     peso_float = float(dados_medidos_dict['peso'])
     altura_metro = dados_cadastro.altura / 100
     dados_medidos_dict['imc'] = calcular_imc(altura_metro, peso_float)
+    dados_medidos_dict['data'] = datetime.now()
     dados_medidos = dados_medidos_serializer.load(dados_medidos_dict, unknown=INCLUDE)
     session.add(dados_medidos)
     try:

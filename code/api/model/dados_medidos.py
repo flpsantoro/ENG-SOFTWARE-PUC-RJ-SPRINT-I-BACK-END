@@ -22,7 +22,6 @@ class DadosMedidos(Base):
 
     def __init__(self, data: DateTime, peso: float, gordura: float, gordura_visceral: int, idade: int, idade_corporal: int,
                  imc: float, met_basal: int, musculo: float, cadastro_id: int) -> None:
-        self.data = datetime.now()
         self.peso = peso
         self.gordura = gordura
         self.gordura_visceral = gordura_visceral
