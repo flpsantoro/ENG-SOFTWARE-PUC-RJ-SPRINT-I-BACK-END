@@ -66,7 +66,7 @@ def calcular_idade(data_nascimento):
 
 def calcular_imc(altura, peso):
     imc = peso / altura ** 2
-    return "{:.2f}".format(imc)
+    return imc
 
 
 @app.get('/cadastro', methods=['GET'], tags=[cadastro_tag])
