@@ -7,7 +7,6 @@ from model.base import Base
 
 class DadosMedidos(Base):
     __tablename__ = 'tb_dados_medidos'
-
     id = Column(Integer, primary_key=True)
     data = Column("data_medicao", DateTime, nullable=False)
     gordura = Column("porcen_gordura", Float)
